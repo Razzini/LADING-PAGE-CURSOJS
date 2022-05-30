@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/elements.css" />
+    <link rel="stylesheet" href="assets/css/classes.css" />
+    <link rel="stylesheet" href="assets/css/menu.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Programador JS do zero ao milhão</title>
+  </head>
+  <body >
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu"role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+    <aside class="menu white-bg">
+      <div class="main-content menu-content">
+        <h1>
+          <a href="#">Logo</a>
+        </h1>
+
+        <nav>
+          <ul onclick="getElementById('close-menu').checked= false;">
+            <li><a href="#ome">Home</a></li>
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#top3">Top 3</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#Pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+    <div class="home menu-spacing"></div>
+    <section id="home" class="main-bg section">
+      <div class="main-content home-content">
+        <div class="home-text-content">
+          <h2>Full Stack Development</h2>
+          <p>
+            Estude uma trilha de conteúdos completa, versátil e multidisciplinar
+            Com quase 500 h de conteúdo construído com base no que o mercado
+            mais busca, formamos Devs do Zero ensinando todos os conceitos base
+            de Front-End, Back-End e Full Stack com profundidade, além das
+            stacks de tecnologia mais atuais.
+          </p>
+        </div>
+        <div class="home-img">
+          <img
+            src="assets/img/js-htm-css.svg"
+            alt="um homem apontando para o simbolo do css, uma mulher com o cabelo rosa empurrando o simbolo do javascript enquanto um homem preto apresenta o simbolo do html"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="intro" class="white-bg section">
+      <div class="main-content intro-content">
+        <h2>Porque estudar conosco</h2>
+        <p>
+          Estude uma trilha de conteúdos completa, versátil e multidisciplinar
+          Com quase 500 h de conteúdo construído com base no que o mercado mais
+          busca, formamos Devs do Zero ensinando todos os conceitos base de
+          Front-End, Back-End e Full Stack com profundidade, além das stacks de
+          tecnologia mais atuais.
+        </p>
+        <p>
+          Aplique seus conhecimentos em projetos próprios e desafios de negócio
+          assinados por marcas parceiras. Você se forma com um portfólio pronto,
+          um certificado por módulo + certificado final que comprovam e
+          diferenciam o seu currículo!
+        </p>
+        <p>
+          Tenha mais flexibilidade e autonomia! Além das stacks de tecnologia
+          mais utilizadas, você escolhe aprender uma 2ª stack e tem conteúdos ao
+          vivo e gravados, que se encaixam na sua escolha e se adequam 100% à
+          rotina
+        </p>
+      </div>
+    </section>
+
+    <section id="top3" class="intro main-bg section">
+      <div class="main-content top3-content">
+        <h2 class="grid-main-heading">Evolua e ganhe</h2>
+        <p class="grid-description">
+          Aprenda as linguagens, ferramentas e conceitos de Desenvolvimento de
+          Software Full Stack mais exigidas do mercado.
+        </p>
+        <div class="container">
+          <article>
+            <h3>Demanda crescente</h3>
+            <p>
+              Desenvolvimento de Softwares e Aplicações está na 9ª posição entre
+              as 20 carreiras mais promissoras da atualidade e com maior demanda
+              e crescimento.
+            </p>
+          </article>
+          <article>
+            <h3>Empregos em alta</h3>
+            <p>
+              Desenvolvimento Web e outras áreas de tecnologia superaram a crise
+              de 2020 e se mantiveram em crescimento constante, representando o
+              maior número de posições remotas abertas, das 15 categorias de
+              empregos em alta, no LinkedIn
+            </p>
+          </article>
+          <article>
+            <h3>Salário valorizado</h3>
+            <p>
+              Segundo o portal Glassdoor, o salário médio de uma pessoa
+              Desenvolvedora de Software Full Stack em grandes empresas digitais
+              é de R$7.000 a R$8.000, podendo chegar a R$15.000 em alguns casos.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="intro white-bg section">
+      <div class="main-content top3-content">
+        <h2 class="grid-main-heading">Gallery</h2>
+        <p class="grid-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam rem
+          nisi quibusdam numquam.
+        </p>
+        <div class="container">
+          <div class="gallery-img">
+            <img
+              src="https://source.unsplash.com/random/360x360?r=1"
+              alt="imagens aleatorias do unsplash.com"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="https://source.unsplash.com/random/360x360?a=2"
+              alt="imagens aleatorias do unsplash.com"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="https://source.unsplash.com/random/360x360?r=3"
+              alt="imagens aleatorias do unsplash.com"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="https://source.unsplash.com/random/360x360?e=1"
+              alt="imagens aleatorias do unsplash.com"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="https://source.unsplash.com/random/360x360?q=6"
+              alt="imagens aleatorias do unsplash.com"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="https://source.unsplash.com/random/360x360?w=3"
+              alt="imagens aleatorias do unsplash.com"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="intro main-bg section">
+      <div class="main-content top3-content">
+        <h2 class="grid-main-heading">Evolua e ganhe</h2>
+        <p class="grid-description">
+          Aprenda as linguagens, ferramentas e conceitos de Desenvolvimento de
+          Software Full Stack mais exigidas do mercado.
+        </p>
+        <div class="container">
+          <article>
+            <h3>Oportunidades</h3>
+            <p>
+              Desenvolvimento de Softwares e Aplicações está na 9ª posição entre
+              as 20 carreiras mais promissoras da atualidade e com maior demanda
+              e crescimento.
+            </p>
+          </article>
+          <article>
+            <h3>Desafios</h3>
+            <p>
+              Desenvolvimento Web e outras áreas de tecnologia superaram a crise
+              de 2020 e se mantiveram em crescimento constante, representando o
+              maior número de posições remotas abertas, das 15 categorias de
+              empregos em alta, no LinkedIn
+            </p>
+          </article>
+          <article>
+            <h3>Salário valorizado</h3>
+            <p>
+              Segundo o portal Glassdoor, o salário médio de uma pessoa
+              Desenvolvedora de Software Full Stack em grandes empresas digitais
+              é de R$7.000 a R$8.000, podendo chegar a R$15.000 em alguns casos.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="Pricing" class="white-bg section">
+      <div class="main-content intro-content">
+        <h2>Porque estudar conosco</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+          voluptas nulla totam neque fuga tempore, quidem expedita doloremque,
+          molestias obcaecati animi officia nostrum dicta cupiditate aliquid
+          necessitatibus odio. Debitis, consequuntur?
+        </p>
+        <div class="responsible-table">
+          <table>
+            <caption>
+              Pricing table
+            </caption>
+            <thead>
+              <tr></tr>
+              <th>Title 1</th>
+              <th>Title 2</th>
+              <th>Title 3</th>
+              <th>Title 4</th>
+              <th>Title 5</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Testando</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="main-bg section">
+      <div class="main-content home-content">
+        <div class="home-text-content">
+          <h2>Full Stack Development</h2>
+          <p>
+            Estude uma trilha de conteúdos completa, versátil e multidisciplinar
+            Com quase 500 h de conteúdo construído com base no que o mercado
+            mais busca, formamos Devs do Zero ensinando todos os conceitos base
+            de Front-End, Back-End e Full Stack com profundidade, além das
+            stacks de tecnologia mais atuais.
+          </p>
+        </div>
+        <div class="home-img">
+          <img
+            src="assets/img/js-htm-css.svg"
+            alt="um homem apontando para o simbolo do css, uma mulher com o cabelo rosa empurrando o simbolo do javascript enquanto um homem preto apresenta o simbolo do html"
+          />
+        </div>
+        <div class="contact-form">
+          <fieldset class="form-grid ">
+            <legend>contact me</legend>
+
+            <div class="form-group">
+              <label for="first-name">First name</label>
+              <input type="text" name="first-name" id="first-name" 
+              placeholder="Your name"/>
+            </div>
+
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" name="last-name" id="last-name" 
+              placeholder="Your last name"/>
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" name="email" id="email" 
+              placeholder="Your e-mail"/>
+            </div>
+
+            <div class="form-group full-with">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Your message"></textarea>
+
+              
+            <div class="form-group full-with">
+              <button type="submit">Send message</button>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </section>
+    <footer id="footer" class="white-bg footer">
+      <p>Feito com <span class="heart">&#9829</span> por Thiago Razzini</p> 
+    </footer>
+    <a class="back-to-top" href="#">⮝</a>
+  </body>
+</html>
